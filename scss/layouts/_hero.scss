@@ -1,0 +1,37 @@
+.hero {
+  background-image: url(../../images/hero-background.jpg);
+  padding: 220px 0 335px 0;
+  position: relative;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 134%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+.hero-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  background-color: #4985ff;
+  border-radius: 30px;
+  border: transparent;
+  padding: 13px 36px;
+}
