@@ -15,10 +15,46 @@
   <body>
     <header class="container header">
       <button type="button" class="burger__btn" data-mob-open>
-        <svg>
-          <use></use>
+        <svg class="burger__icon">
+          <use href="./images/symbol-defs.svg#icon-burgir"></use>
         </svg>
       </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav-item"><a href="" class="nav-link">Головна</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Наші Проекти</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Послуги</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Новини</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
+        </ul>
+
+        <div class="burger is-hidden" data-mob>
+          <div class="container">
+            <button type="button" class="burger__btn__close" data-mob-close>
+              <svg class="burger__close">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="burger__list">
+              <li class="burger__item">
+                <a href="" class="burger__link">Головна</a>
+              </li>
+              <li class="burger__item">
+                <a href="" class="burger__link">Наші Проекти</a>
+              </li>
+              <li class="burger__item">
+                <a href="" class="burger__link">Послуги</a>
+              </li>
+              <li class="burger__item">
+                <a href="" class="burger__link">Новини</a>
+              </li>
+              <li class="burger__item">
+                <a href="" class="burger__link">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
   </body>
 </html>
