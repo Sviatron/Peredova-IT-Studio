@@ -185,6 +185,11 @@ a {
   color: white;
   margin-bottom: 50px;
 }
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 40px;
+  }
+}
 
 .hero-btn {
   display: block;
@@ -199,4 +204,66 @@ a {
   border-radius: 30px;
   border: transparent;
   padding: 13px 36px;
+}
+
+.dodatki {
+  margin-top: 110px;
+  margin-bottom: 105px;
+}
+
+.dodatki__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #323232;
+}
+
+.dodatki__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+}
+
+.dodatki__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.dodatki__item {
+  text-align: center;
+}
+
+.dodatki__icon {
+  width: 40px;
+  height: 40px;
+  fill: #4985ff;
+  border: 3px solid #4985ff;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.dodatki__title__desc {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+
+.dodatki__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  color: #999999;
 }
