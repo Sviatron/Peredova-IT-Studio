@@ -302,6 +302,12 @@ a {
   text-decoration: underline;
   color: #4985ff;
   margin-bottom: 53px;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+
+.standart__link:hover {
+  color: rgba(73, 134, 255, 0.7019607843);
 }
 
 .standart__img {
@@ -329,11 +335,26 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 40px;
+  padding: 0 90px;
 }
 
 .standarts__icon {
   width: 30px;
   height: 30px;
-  fill: black;
-  color: black;
+  fill: #4985ff;
+  color: #4985ff;
+  margin-top: 6px;
+}
+
+.fixer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.standarts__count {
+  font-size: 36px;
+  font-weight: 400;
 }
