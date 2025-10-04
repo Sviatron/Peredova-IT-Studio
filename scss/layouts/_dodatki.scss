@@ -21,19 +21,22 @@
 .dodatki__list {
   display: flex;
   justify-content: space-between;
-  
+  align-items: top;
   gap: 30px;
 }
 .dodatki__item {
-  text-align: center;
+  display: flex;
+  text-align: left;
 }
 .dodatki__icon {
   width: 40px;
   height: 40px;
   fill: #4985ff;
-  border: 3px solid #4985ff;
-  border-radius: 50%;
-  padding: 25px;
+  color: #4985ff;
+  // border: 3px solid #4985ff;
+  // border-radius: 50%;
+  // padding: 25px;
+  display: inline-block;
 }
 .dodatki__title__desc {
   font-weight: 600;
@@ -41,6 +44,7 @@
   line-height: 100%;
   letter-spacing: 0%;
   color: black;
+  margin-bottom: 10px;
 }
 .dodatki__desc {
   font-weight: 400;
@@ -48,4 +52,23 @@
   line-height: 158%;
   letter-spacing: 0%;
   color: #999999;
+}
+.border__gray {
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+.border__blue {
+  border: 1px solid #4985ff;
+  border-radius: 50%;
+  padding: 25px;
+  width: 90px;
+  height: 90px;
+}
+.dodatki__contain {
+  margin-top: 50px;
 }
