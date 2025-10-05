@@ -395,6 +395,9 @@ a {
 
 .works {
   position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #504dc2), color-stop(50%, #fff));
+  background-image: linear-gradient(to bottom, #504dc2 50%, #fff 50%);
+  margin-bottom: 100px;
 }
 
 .works__top {
@@ -415,6 +418,8 @@ a {
   line-height: 146%;
   letter-spacing: 0%;
   color: #ffffff;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .works__btn {
@@ -423,10 +428,11 @@ a {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   background-color: #4985ff;
-  border-radius: 30px;
   border: transparent;
+  border-radius: 30px;
+  padding: 13px 35px 15px 35px;
 }
 
 .works__list {
@@ -440,6 +446,18 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.works__list::after {
+  content: "";
+  display: block;
+  width: 97%;
+  height: 2px;
+  background-color: #e0e0e0;
+  position: absolute;
+  bottom: 0;
 }
 
 .works__item {
@@ -490,4 +508,65 @@ a {
   letter-spacing: 0%;
   text-decoration: underline;
   color: #4985ff;
+}
+
+.projects {
+  background-color: #f6f6f8;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.projects__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.projects__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 92px;
+}
+
+.projects__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__img {
+  width: 255px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.projects__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+  background-color: #4985ff;
+  border-radius: 30px;
+  border: transparent;
+  padding: 15px 36px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
