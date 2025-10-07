@@ -1,0 +1,35 @@
+.section__vid {
+  background-image: url(../../images/hero-background.jpg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 420px;
+  position: relative;
+  margin-bottom: 165px;
+}
+.vid__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+  z-index: 20;
+}
+.vid__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+  z-index: 20;
+}
+.vid {
+  border-radius: 10px;
+  width: 970px;
+  height: 500px;
+  position: absolute;
+  bottom: -100px;
+}
