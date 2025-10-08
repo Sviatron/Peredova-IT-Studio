@@ -27,9 +27,11 @@
   z-index: 20;
 }
 .vid {
+  display: block;
   border-radius: 10px;
   width: 970px;
   height: 500px;
   position: absolute;
   bottom: -100px;
+  left: 18%;
 }

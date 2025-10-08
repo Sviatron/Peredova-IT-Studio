@@ -1,0 +1,66 @@
+.sub {
+  margin-top: 170px;
+  margin-bottom: 85px;
+}
+.sub__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.sub__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999;
+  margin-bottom: 30px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 35px;
+}
+.sub__input {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  color: #999999;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  width: 489px;
+  padding: 15px 33px;
+  box-shadow: 0px 0px 10px 0px #6f6f6f40;
+}
+.sub__btn {
+  padding: 17px 36px 19px 26px;
+  position: absolute;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  color: #ffffff;
+  border: transparent;
+  background-color: #4985ff;
+  right: 27%;
+  box-shadow: 0px 0px 10px 0px #6f6f6f40;
+}
+.sub__nospam {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+}
