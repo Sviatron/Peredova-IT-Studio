@@ -9,6 +9,7 @@
   letter-spacing: 0%;
   text-align: center;
   color: #323232;
+  margin-bottom: 30px;
 }
 .dodatki__text {
   font-weight: 400;
@@ -21,21 +22,25 @@
 .dodatki__list {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: top;
   gap: 30px;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 .dodatki__item {
   display: flex;
   text-align: left;
+}
+.dodatki__item:nth-child(1) {
+  margin-top: 20px;
 }
 .dodatki__icon {
   width: 40px;
   height: 40px;
   fill: #4985ff;
   color: #4985ff;
-  // border: 3px solid #4985ff;
-  // border-radius: 50%;
-  // padding: 25px;
   display: inline-block;
 }
 .dodatki__title__desc {
@@ -70,5 +75,8 @@
   height: 90px;
 }
 .dodatki__contain {
-  margin-top: 50px;
+  margin-top: 10px;
+  @media (min-width: 1200px) {
+    margin-top: 50px;
+  }
 }

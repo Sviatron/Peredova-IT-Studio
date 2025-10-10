@@ -53,8 +53,11 @@
   color: #ffffff;
   border: transparent;
   background-color: #4985ff;
-  right: 27%;
   box-shadow: 0px 0px 10px 0px #6f6f6f40;
+  right: 0%;
+  @media (min-width: 1200px) {
+    right: 27%;
+  }
 }
 .sub__nospam {
   font-weight: 400;
