@@ -181,7 +181,7 @@ a {
 }
 
 .hero {
-  background-image: url(../../images/hero-background.jpg);
+  background-image: url(./../images/hero-background.jpg);
   padding: 220px 0 335px 0;
   position: relative;
 }
@@ -665,7 +665,7 @@ a {
 }
 
 .section__vid {
-  background-image: url(../../images/hero-background.jpg);
+  background-image: url(./../images/hero-background.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
