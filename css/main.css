@@ -27,7 +27,6 @@ a {
   margin-right: auto;
   width: 100%;
   padding: 0 15px 0 15px;
-  outline: 2px solid tomato;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -184,6 +183,8 @@ a {
   background-image: url(./../images/hero-background.jpg);
   padding: 220px 0 335px 0;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-text {
@@ -280,10 +281,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   text-align: left;
-}
-
-.dodatki__item:nth-child(1) {
-  margin-top: 20px;
 }
 
 .dodatki__icon {
@@ -676,6 +673,8 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 70px;
   padding-bottom: 420px;
   position: relative;
@@ -706,10 +705,12 @@ a {
   display: block;
   border-radius: 10px;
   width: 970px;
-  height: 500px;
+  height: 430px;
   position: absolute;
-  bottom: -100px;
-  left: 18%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 220px;
 }
 
 .sub {

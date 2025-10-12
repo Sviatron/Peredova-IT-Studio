@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 70px;
   padding-bottom: 420px;
   position: relative;
@@ -30,8 +32,9 @@
   display: block;
   border-radius: 10px;
   width: 970px;
-  height: 500px;
+  height: 430px;
   position: absolute;
-  bottom: -100px;
-  left: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 220px;
 }
