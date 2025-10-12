@@ -680,6 +680,11 @@ a {
   position: relative;
   margin-bottom: 165px;
 }
+@media (min-width: 480px) {
+  .section__vid {
+    display: none;
+  }
+}
 
 .vid__title {
   font-weight: 700;
