@@ -30,7 +30,7 @@
   color: #ffffff;
   position: relative;
 }
-.nav-link:hover::after {
+.nav-link::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -38,8 +38,16 @@
   border-radius: 2px;
   position: absolute;
   background-color: #ffffff;
-  top: 58px;
+  top: 30px;
   left: 0;
+  opacity: 0;
+
+  transform: scaleX(0);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
 }
 .burger__btn {
   width: 40px;
@@ -86,12 +94,9 @@
   position: absolute;
   z-index: 11;
 }
-// .burger.is-hidden {
-//   visibility: hidden;
-//   opacity: 0;
-// }
-.is-hidden {
-  display: none;
+.burger.is-hidden {
+  visibility: hidden;
+  opacity: 0;
 }
 .burger__list {
   display: flex;
