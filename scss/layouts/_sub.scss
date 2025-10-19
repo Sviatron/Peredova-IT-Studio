@@ -28,6 +28,7 @@
   margin-bottom: 35px;
 }
 .sub__input {
+  display: block;
   background-color: transparent;
   font-weight: 400;
   font-size: 13px;
@@ -36,9 +37,12 @@
   color: #999999;
   border: 1px solid #f2f2f2;
   border-radius: 30px;
-  width: 489px;
+  width: 100%;
   padding: 15px 33px;
   box-shadow: 0px 0px 10px 0px #6f6f6f40;
+  @media (min-width: 1200px) {
+    width: 489px;
+  }
 }
 .sub__btn {
   padding: 17px 36px 19px 26px;
